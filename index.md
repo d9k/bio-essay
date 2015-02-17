@@ -15,9 +15,9 @@ Complete usage and documentation available at: [Jekyll Bootstrap](http://jekyllb
 
 ## Тестовый раздел
 
-Привет!
-
 [Тестовая страница]({{ BASE_PATH }}/test.html)
+
+0. [Интерфероны]({{ BASE_PATH }}/interferon.html)
 
 ## Update Author Attributes
 
