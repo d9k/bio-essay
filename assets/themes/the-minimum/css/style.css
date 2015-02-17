@@ -1,9 +1,6 @@
 @import "base.css";
-
 @import "module.css";
-
 @import "syntaxhighlighter.css";
-
 @import "helper.css";
 /*
 Frameless			<http://framelessgrid.com/>
@@ -23,6 +20,7 @@ Calculation should be done via  http://j.mp/rNg5uA
 
 No styleguide reference.
 */
+/* line 55, assets/themes/the-minimum/css/_less-base.less */
 body {
   font-family: Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, "MS PGothic", Osaka, Sans-Serif;
   font-size: 1em;
@@ -45,6 +43,7 @@ Vertical Rhythm is caluculated via http://j.mp/sUvKuN
 
 No styleguide reference.
 */
+/* line 79, assets/themes/the-minimum/css/_less-base.less */
 h1,
 h2,
 h3,
@@ -54,32 +53,41 @@ h6 {
   font-family: junctionregularRegular, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, "MS PGothic", Osaka, Sans-Serif;
   font-weight: bold;
 }
-h1, .h1 {
+/* line 84, assets/themes/the-minimum/css/_less-base.less */
+h1,
+.h1 {
   font-size: 42px;
   line-height: 52px;
   margin-top: 52px;
   margin-bottom: 26px;
   letter-spacing: -1px;
 }
-h2, .h2 {
+/* line 91, assets/themes/the-minimum/css/_less-base.less */
+h2,
+.h2 {
   font-size: 42px;
   line-height: 52px;
   margin-top: 52px;
   margin-bottom: 26px;
   letter-spacing: -1px;
 }
-h3, .h3 {
+/* line 98, assets/themes/the-minimum/css/_less-base.less */
+h3,
+.h3 {
   font-size: 26px;
   line-height: 26px;
   margin-top: 26px;
   margin-bottom: 26px;
 }
-h4, .h4 {
+/* line 104, assets/themes/the-minimum/css/_less-base.less */
+h4,
+.h4 {
   font-size: 20px;
   line-height: 26px;
   margin-top: 26px;
   margin-bottom: 26px;
 }
+/* line 110, assets/themes/the-minimum/css/_less-base.less */
 p,
 ul,
 ol,
@@ -88,21 +96,29 @@ img {
   margin-top: 0;
   margin-bottom: 1.625em;
 }
-small, .small, aside {
+/* line 114, assets/themes/the-minimum/css/_less-base.less */
+small,
+.small,
+aside {
   font-size: 0.75em;
 }
+/* line 115, assets/themes/the-minimum/css/_less-base.less */
 .font-size-default {
   font-size: 1em;
 }
+/* line 117, assets/themes/the-minimum/css/_less-base.less */
 blockquote {
   font-weight: bold;
 }
+/* line 118, assets/themes/the-minimum/css/_less-base.less */
 blockquote cite {
   font-weight: normal;
 }
+/* line 119, assets/themes/the-minimum/css/_less-base.less */
 strong {
   font-weight: bold;
 }
+/* line 120, assets/themes/the-minimum/css/_less-base.less */
 em {
   font-weight: bold;
 }
@@ -151,6 +167,7 @@ List modules
 
 No styleguide reference.
 */
+/* line 196, assets/themes/the-minimum/css/_less-base.less */
 .list-linear {
   letter-spacing: -0.31em;
   *letter-spacing: normal;
@@ -158,6 +175,7 @@ No styleguide reference.
   list-style: none;
   padding-left: 0;
 }
+/* line 202, assets/themes/the-minimum/css/_less-base.less */
 .list-linear li {
   display: inline-block;
   *display: inline;
@@ -168,6 +186,7 @@ No styleguide reference.
   word-spacing: normal;
   vertical-align: middle;
 }
+/* line 211, assets/themes/the-minimum/css/_less-base.less */
 .list-linear li:last-child {
   margin-right: 0;
 }
@@ -175,27 +194,33 @@ No styleguide reference.
 --------------------------------------------------------------------------------- */
 /* GLOBAL
 --------------------------------------------------------------------------------- */
+/* line 14, assets/themes/the-minimum/css/style.less */
 html {
   background-color: #ffffff;
   color: #2d2d2d;
 }
 /* LINK */
+/* line 21, assets/themes/the-minimum/css/style.less */
 a:link {
   color: #2d2d2d;
   text-decoration: none;
 }
+/* line 25, assets/themes/the-minimum/css/style.less */
 a:visited {
   color: #141414;
   text-decoration: none;
 }
+/* line 29, assets/themes/the-minimum/css/style.less */
 a:hover {
   color: #474747;
   text-decoration: none;
 }
 /* HIGHLIGHTER */
+/* line 36, assets/themes/the-minimum/css/style.less */
 pre {
   margin-bottom: 1.625em;
 }
+/* line 37, assets/themes/the-minimum/css/style.less */
 pre {
   color: #f2f2f2;
   background-color: #393939;
@@ -212,22 +237,27 @@ pre {
 /* meta */
 /* HEADER
 --------------------------------------------------------------------------------- */
+/* line 58, assets/themes/the-minimum/css/style.less */
 .the-header .logo {
   font-family: junctionregularRegular, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, "MS PGothic", Osaka, Sans-Serif;
   margin: 0;
 }
+/* line 61, assets/themes/the-minimum/css/style.less */
 .the-header .logo a:visited {
   color: #2d2d2d;
 }
+/* line 63, assets/themes/the-minimum/css/style.less */
 .the-header .nav-global {
   text-transform: uppercase;
 }
+/* line 65, assets/themes/the-minimum/css/style.less */
 .the-header .nav-global .forkme {
   position: relative;
   top: 2px;
 }
 /* MAIN
 --------------------------------------------------------------------------------- */
+/* line 76, assets/themes/the-minimum/css/style.less */
 .unit-article header {
   background: url('/assets/themes/the-minimum/skin/100-90-5-monochrome.png');
   background-repeat: repeat;
@@ -237,11 +267,13 @@ pre {
   padding-top: 1.625em;
   padding-bottom: 1.625em;
 }
+/* line 84, assets/themes/the-minimum/css/style.less */
 .unit-article header h1 {
   color: #2d2d2d;
   margin-top: 0;
   margin-bottom: 0;
 }
+/* line 92, assets/themes/the-minimum/css/style.less */
 .unit-article .entry-content h2,
 .unit-article .entry-content h3,
 .unit-article .entry-content h4,
@@ -249,6 +281,7 @@ pre {
 .unit-article .entry-content h6 {
   color: #2d2d2d;
 }
+/* line 95, assets/themes/the-minimum/css/style.less */
 .unit-article .entry-content h2 a:link,
 .unit-article .entry-content h3 a:link,
 .unit-article .entry-content h4 a:link,
@@ -257,6 +290,7 @@ pre {
   color: #2d2d2d;
   border: 0;
 }
+/* line 99, assets/themes/the-minimum/css/style.less */
 .unit-article .entry-content h2 a:visited,
 .unit-article .entry-content h3 a:visited,
 .unit-article .entry-content h4 a:visited,
@@ -265,6 +299,7 @@ pre {
   color: #141414;
   border: 0;
 }
+/* line 103, assets/themes/the-minimum/css/style.less */
 .unit-article .entry-content h2 a:hover,
 .unit-article .entry-content h3 a:hover,
 .unit-article .entry-content h4 a:hover,
@@ -273,6 +308,7 @@ pre {
   color: #474747;
   border: 0;
 }
+/* line 111, assets/themes/the-minimum/css/style.less */
 .unit-article .entry-content:first-child h2,
 .unit-article .entry-content:first-child h3,
 .unit-article .entry-content:first-child h4,
@@ -280,32 +316,43 @@ pre {
 .unit-article .entry-content:first-child h6 {
   margin-top: 0;
 }
+/* line 118, assets/themes/the-minimum/css/style.less */
 .unit-article a:link {
   border-bottom: 1px dotted #99cc99;
 }
+/* line 119, assets/themes/the-minimum/css/style.less */
 .unit-article a:visited {
   border-bottom: 1px dotted #77bb77;
 }
+/* line 120, assets/themes/the-minimum/css/style.less */
 .unit-article a:hover {
   border-bottom: 1px dotted #bbddbb;
 }
+/* line 123, assets/themes/the-minimum/css/style.less */
 .unit-article blockquote {
   border-left: 1em solid rgba(21, 25, 25, 0.8);
   padding-left: 1em;
 }
+/* line 126, assets/themes/the-minimum/css/style.less */
 .unit-article blockquote p {
   margin-left: 0;
   margin-right: 0;
 }
-.unit-article ul, .unit-article ol, .unit-article dl {
+/* line 131, assets/themes/the-minimum/css/style.less */
+.unit-article ul,
+.unit-article ol,
+.unit-article dl {
   padding-left: 0;
 }
+/* line 132, assets/themes/the-minimum/css/style.less */
 .unit-article ul {
   list-style: square;
 }
+/* line 133, assets/themes/the-minimum/css/style.less */
 .unit-article ol {
   list-style: decimal;
 }
+/* line 135, assets/themes/the-minimum/css/style.less */
 .unit-article li h1,
 .unit-article dt h1,
 .unit-article dd h1,
@@ -342,7 +389,9 @@ pre {
   margin-left: 0;
   margin-right: 0;
 }
-.unit-article p code, .unit-article li code {
+/* line 137, assets/themes/the-minimum/css/style.less */
+.unit-article p code,
+.unit-article li code {
   margin: 0 2px;
   padding: 2px 5px;
   white-space: nowrap;
@@ -355,30 +404,41 @@ pre {
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
 }
+/* line 149, assets/themes/the-minimum/css/style.less */
 .unit-article img {
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
+/* line 154, assets/themes/the-minimum/css/style.less */
 .unit-article img.left {
   margin-right: 16px;
 }
+/* line 155, assets/themes/the-minimum/css/style.less */
 .unit-article img.right {
   margin-left: 16px;
 }
+/* line 157, assets/themes/the-minimum/css/style.less */
 .unit-article .date-publish {
   margin-bottom: 0;
 }
+/* line 158, assets/themes/the-minimum/css/style.less */
 .unit-article .list-linear .list-head {
   margin-right: 4px;
 }
-.unit-article .list-category a, .unit-article .list-tag a {
+/* line 159, assets/themes/the-minimum/css/style.less */
+.unit-article .list-category a,
+.unit-article .list-tag a {
   border: 0 none;
 }
-.unit-article .list-category a:hover span, .unit-article .list-tag a:hover span {
+/* line 161, assets/themes/the-minimum/css/style.less */
+.unit-article .list-category a:hover span,
+.unit-article .list-tag a:hover span {
   background-color: #f99157;
 }
-.unit-article .list-category span, .unit-article .list-tag span {
+/* line 163, assets/themes/the-minimum/css/style.less */
+.unit-article .list-category span,
+.unit-article .list-tag span {
   background-color: #e25608;
   padding: 1px 5px;
   -webkit-border-radius: 10px;
@@ -394,13 +454,16 @@ pre {
   font-weight: bold;
   font-size: 10px;
 }
+/* line 179, assets/themes/the-minimum/css/style.less */
 .unit-article .list-category {
   margin-bottom: 0;
   text-transform: capitalize;
 }
+/* line 184, assets/themes/the-minimum/css/style.less */
 .unit-article .list-tag {
   text-transform: capitalize;
 }
+/* line 188, assets/themes/the-minimum/css/style.less */
 .unit-article .unit-foot {
   background: url('/assets/themes/the-minimum/skin/100-90-5-monochrome.png') repeat 0 0 #4d4d4d;
   color: #fafafa;
@@ -408,25 +471,32 @@ pre {
   padding-bottom: 1.625em;
   position: relative;
 }
+/* line 192, assets/themes/the-minimum/css/style.less */
 .unit-article .unit-foot a:link {
   color: #fafafa;
 }
+/* line 193, assets/themes/the-minimum/css/style.less */
 .unit-article .unit-foot a:visited {
   color: #fafafa;
 }
+/* line 194, assets/themes/the-minimum/css/style.less */
 .unit-article .unit-foot a:hover {
   color: #ffffff;
 }
+/* line 199, assets/themes/the-minimum/css/style.less */
 .unit-article .unit-foot nav ul {
   list-style: none;
 }
+/* line 201, assets/themes/the-minimum/css/style.less */
 .unit-article .unit-foot nav ul li {
   display: inline;
 }
+/* line 203, assets/themes/the-minimum/css/style.less */
 .unit-article .unit-foot .gotop {
   margin-bottom: 0;
 }
 /* post & page */
+/* line 210, assets/themes/the-minimum/css/style.less */
 .layout-page .tag_box {
   background: url('/assets/themes/the-minimum/skin/100-90-5-monochrome.png') repeat 0 0 #999999;
   padding: 0.8125em;
@@ -441,11 +511,13 @@ pre {
   -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.2), 0 1px 0 rgba(255, 255, 255, 0.4);
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.4), 0 1px 0 rgba(255, 255, 255, 0.4);
 }
+/* line 221, assets/themes/the-minimum/css/style.less */
 .layout-page .tag_box li {
   display: inline;
   line-height: normal;
   vertical-align: middle;
 }
+/* line 226, assets/themes/the-minimum/css/style.less */
 .layout-page .tag_box a {
   background-color: #99cc99;
   float: left;
@@ -470,6 +542,7 @@ pre {
   -ms-user-select: none;
   user-select: none;
 }
+/* line 248, assets/themes/the-minimum/css/style.less */
 .layout-page .tag_box a:active {
   -webkit-box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.6);
   -moz-box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.6);
@@ -477,14 +550,17 @@ pre {
   background: #336633;
   border: solid #336633;
 }
+/* line 255, assets/themes/the-minimum/css/style.less */
 .layout-page .tag_box a:hover {
   background-color: #77bb77;
   border: 1px solid #336633;
 }
+/* line 258, assets/themes/the-minimum/css/style.less */
 .layout-page .tag_box a:hover span {
   background-color: #e1e1e1;
   border: 1px solid #77bb77;
 }
+/* line 264, assets/themes/the-minimum/css/style.less */
 .layout-page .tag_box span {
   background-color: #fafafa;
   border: 1px solid #99cc99;
@@ -505,6 +581,7 @@ pre {
 }
 /* FOOTER
 ----------------------------------------------- */
+/* line 288, assets/themes/the-minimum/css/style.less */
 .the-footer {
   background-color: #1a1a1a;
   background-color: rgba(21, 25, 25, 0.8);
@@ -512,31 +589,39 @@ pre {
   color: rgba(250, 250, 250, 0.8);
   padding-bottom: 1.625em;
 }
+/* line 295, assets/themes/the-minimum/css/style.less */
 .the-footer a:link {
   color: #99cc99;
   border: 0;
 }
+/* line 299, assets/themes/the-minimum/css/style.less */
 .the-footer a:visited {
   color: #77bb77;
   border: 0;
 }
+/* line 303, assets/themes/the-minimum/css/style.less */
 .the-footer a:hover {
   color: #bbddbb;
   border: 0;
 }
+/* line 308, assets/themes/the-minimum/css/style.less */
 .the-footer ul {
   list-style: square;
   padding-left: 1em;
 }
+/* line 312, assets/themes/the-minimum/css/style.less */
 .the-footer address {
   font-style: normal;
 }
+/* line 313, assets/themes/the-minimum/css/style.less */
 .the-footer .license {
   clear: both;
 }
+/* line 315, assets/themes/the-minimum/css/style.less */
 .the-footer .license p {
   margin-bottom: 0;
 }
+/* line 3, assets/themes/the-minimum/css/_layout.less */
 .the-header .unit-inner {
   width: 15em;
   margin-top: 1.625em;
@@ -544,10 +629,12 @@ pre {
   margin-left: auto;
   margin-right: auto;
 }
+/* line 10, assets/themes/the-minimum/css/_layout.less */
 .the-header .logo a {
   font-size: 32px;
   line-height: 42px;
 }
+/* line 18, assets/themes/the-minimum/css/_layout.less */
 .unit-article .unit-head-inner,
 .unit-article .entry-content,
 .unit-article .misc-content,
@@ -556,17 +643,21 @@ pre {
   margin-left: auto;
   margin-right: auto;
 }
+/* line 25, assets/themes/the-minimum/css/_layout.less */
 .unit-article .unit-head-inner .meta {
   margin-bottom: 1.625em;
 }
+/* line 33, assets/themes/the-minimum/css/_layout.less */
 .layout-page .unit-body .unit-body-inner {
   width: 15em;
   margin-left: auto;
   margin-right: auto;
 }
+/* line 39, assets/themes/the-minimum/css/_layout.less */
 .layout-page .unit-body .article-list .meta {
   margin-bottom: 1.625em;
 }
+/* line 47, assets/themes/the-minimum/css/_layout.less */
 .the-footer .unit-foot {
   width: 15em;
   margin-left: auto;
@@ -575,6 +666,7 @@ pre {
 /*
  	IE
 */
+/* line 61, assets/themes/the-minimum/css/_layout.less */
 .ie .the-header .unit-inner {
   width: 60em;
   margin-top: 1.625em;
@@ -582,16 +674,19 @@ pre {
   margin-left: auto;
   margin-right: auto;
 }
+/* line 68, assets/themes/the-minimum/css/_layout.less */
 .ie .the-header .logo {
   width: 26.25em;
   float: left;
 }
+/* line 72, assets/themes/the-minimum/css/_layout.less */
 .ie .the-header .nav-global {
   margin-top: 50px;
   text-align: right;
   width: 26.25em;
   float: right;
 }
+/* line 82, assets/themes/the-minimum/css/_layout.less */
 .ie .unit-article .unit-head-inner,
 .ie .unit-article .entry-content,
 .ie .unit-article .misc-content,
@@ -600,6 +695,7 @@ pre {
   margin-left: auto;
   margin-right: auto;
 }
+/* line 88, assets/themes/the-minimum/css/_layout.less */
 .ie .unit-article .unit-head-inner h1,
 .ie .unit-article .entry-content h1,
 .ie .unit-article .misc-content h1,
@@ -632,22 +728,27 @@ pre {
 .ie .unit-article .misc-content blockquote {
   margin-right: 210px;
 }
+/* line 94, assets/themes/the-minimum/css/_layout.less */
 .ie .unit-article .unit-head-inner .meta {
   width: 20.625em;
   float: right;
 }
+/* line 105, assets/themes/the-minimum/css/_layout.less */
 .ie .layout-page .unit-body .unit-body-inner {
   width: 43.125em;
   margin-left: auto;
   margin-right: auto;
 }
+/* line 110, assets/themes/the-minimum/css/_layout.less */
 .ie .layout-page .unit-body .article-list {
   width: 43.125em;
 }
+/* line 112, assets/themes/the-minimum/css/_layout.less */
 .ie .layout-page .unit-body .article-list .meta {
   width: 20.625em;
   float: right;
 }
+/* line 123, assets/themes/the-minimum/css/_layout.less */
 .ie .the-footer .unit-foot {
   width: 60em;
   margin-left: auto;
@@ -657,6 +758,7 @@ pre {
 	Smartphone
 */
 @media only screen and (min-width: 320px) and (max-width: 767px) {
+  /* line 138, assets/themes/the-minimum/css/_layout.less */
   img {
     max-width: 100%;
   }
@@ -665,14 +767,17 @@ pre {
 	Wide Smartphone
 */
 @media only screen and (min-width: 480px) {
+  /* line 148, assets/themes/the-minimum/css/_layout.less */
   .the-header .unit-inner {
     width: 26.25em;
   }
+  /* line 149, assets/themes/the-minimum/css/_layout.less */
   .the-header .logo a {
     font-size: 42px;
     line-height: 52px;
     letter-spacing: -1px;
   }
+  /* line 154, assets/themes/the-minimum/css/_layout.less */
   .the-header .nav-global {
     margin-top: 1.625em;
     letter-spacing: -0.31em;
@@ -681,10 +786,12 @@ pre {
     list-style: none;
     padding-left: 0;
   }
+  /* line 161, assets/themes/the-minimum/css/_layout.less */
   .the-header .nav-global .home:after {
     margin-left: 16px;
     content: "/";
   }
+  /* line 165, assets/themes/the-minimum/css/_layout.less */
   .the-header .nav-global li {
     display: inline-block;
     *display: inline;
@@ -695,24 +802,30 @@ pre {
     word-spacing: normal;
     vertical-align: middle;
   }
+  /* line 174, assets/themes/the-minimum/css/_layout.less */
   .the-header .nav-global li:last-child {
     margin-right: 0;
   }
+  /* line 181, assets/themes/the-minimum/css/_layout.less */
   .unit-article .unit-head-inner,
   .unit-article .entry-content,
   .unit-article .misc-content,
   .unit-article .unit-foot-inner {
     width: 26.25em;
   }
+  /* line 183, assets/themes/the-minimum/css/_layout.less */
   .unit-article .unit-foot .gotop {
     margin-top: 1.625em;
   }
+  /* line 191, assets/themes/the-minimum/css/_layout.less */
   .layout-page .unit-body .unit-body-inner {
     width: 26.25em;
   }
+  /* line 192, assets/themes/the-minimum/css/_layout.less */
   .layout-page .unit-body .article-list {
     width: 26.25em;
   }
+  /* line 199, assets/themes/the-minimum/css/_layout.less */
   .the-footer .unit-foot {
     width: 26.25em;
   }
@@ -721,33 +834,40 @@ pre {
 	Tablet
 */
 @media only screen and (min-width: 768px) {
+  /* line 212, assets/themes/the-minimum/css/_layout.less */
   .the-header .unit-inner {
     width: 43.125em;
   }
+  /* line 217, assets/themes/the-minimum/css/_layout.less */
   .unit-article .unit-head-inner,
   .unit-article .entry-content,
   .unit-article .misc-content,
   .unit-article .unit-foot-inner {
     width: 43.125em;
   }
+  /* line 220, assets/themes/the-minimum/css/_layout.less */
   .unit-article .unit-head-inner .meta {
     margin-bottom: 0;
     text-align: right;
     width: 20.625em;
     float: right;
   }
+  /* line 233, assets/themes/the-minimum/css/_layout.less */
   .layout-page .unit-body .unit-body-inner {
     width: 43.125em;
   }
+  /* line 234, assets/themes/the-minimum/css/_layout.less */
   .layout-page .unit-body .article-list {
     width: 43.125em;
   }
+  /* line 236, assets/themes/the-minimum/css/_layout.less */
   .layout-page .unit-body .article-list .meta {
     margin-bottom: 0;
     text-align: right;
     width: 20.625em;
     float: right;
   }
+  /* line 249, assets/themes/the-minimum/css/_layout.less */
   .the-footer .unit-foot {
     width: 43.125em;
   }
@@ -756,44 +876,54 @@ pre {
 	Not that old computer layout 
 */
 @media only screen and (min-width: 1280px) {
+  /* line 262, assets/themes/the-minimum/css/_layout.less */
   .the-header .unit-inner {
     width: 60em;
   }
+  /* line 263, assets/themes/the-minimum/css/_layout.less */
   .the-header .logo {
     width: 26.25em;
     float: left;
   }
+  /* line 267, assets/themes/the-minimum/css/_layout.less */
   .the-header .nav-global {
     margin-top: 21px;
     text-align: right;
     width: 26.25em;
     float: right;
   }
+  /* line 277, assets/themes/the-minimum/css/_layout.less */
   .unit-article .unit-head-inner,
   .unit-article .entry-content,
   .unit-article .misc-content,
   .unit-article .unit-foot-inner {
     width: 43.125em;
   }
+  /* line 280, assets/themes/the-minimum/css/_layout.less */
   .unit-article .unit-foot .pagination {
     float: left;
     width: 37.5em;
   }
+  /* line 284, assets/themes/the-minimum/css/_layout.less */
   .unit-article .unit-foot .gotop {
     float: right;
     margin-top: 0;
     text-align: right;
     width: 20.625em;
   }
+  /* line 297, assets/themes/the-minimum/css/_layout.less */
   .layout-page .unit-body .unit-body-inner {
     width: 43.125em;
   }
+  /* line 298, assets/themes/the-minimum/css/_layout.less */
   .layout-page .unit-body .article-list {
     width: 43.125em;
   }
+  /* line 300, assets/themes/the-minimum/css/_layout.less */
   .layout-page .unit-body .article-list .meta {
     width: 20.625em;
   }
+  /* line 308, assets/themes/the-minimum/css/_layout.less */
   .the-footer .unit-foot {
     width: 60em;
   }
@@ -802,40 +932,54 @@ pre {
 	Huge-screen layout 
 */
 @media only screen and (min-width: 1410px) {
+  /* line 321, assets/themes/the-minimum/css/_layout.less */
   .the-header .unit-inner {
     width: 88.125em;
   }
+  /* line 322, assets/themes/the-minimum/css/_layout.less */
   .the-header .logo {
     width: 43.125em;
   }
+  /* line 323, assets/themes/the-minimum/css/_layout.less */
   .the-header .nav-global {
     width: 43.125em;
   }
-  .unit-article .unit-head-inner, .unit-article .entry-content, .unit-article .misc-content {
+  /* line 328, assets/themes/the-minimum/css/_layout.less */
+  .unit-article .unit-head-inner,
+  .unit-article .entry-content,
+  .unit-article .misc-content {
     width: 43.125em;
   }
+  /* line 329, assets/themes/the-minimum/css/_layout.less */
   .unit-article .unit-foot-inner {
     width: 88.125em;
   }
+  /* line 332, assets/themes/the-minimum/css/_layout.less */
   .unit-article .unit-foot .pagination {
     width: 54.375em;
   }
+  /* line 333, assets/themes/the-minimum/css/_layout.less */
   .unit-article .unit-foot .gotop {
     padding-right: 360px;
     width: 9.375em;
   }
+  /* line 344, assets/themes/the-minimum/css/_layout.less */
   .layout-page .unit-body .unit-body-inner {
     width: 43.125em;
   }
+  /* line 345, assets/themes/the-minimum/css/_layout.less */
   .layout-page .unit-body .article-list {
     width: 43.125em;
   }
+  /* line 347, assets/themes/the-minimum/css/_layout.less */
   .layout-page .unit-body .article-list .meta {
     width: 20.625em;
   }
+  /* line 355, assets/themes/the-minimum/css/_layout.less */
   .the-footer .unit-foot {
     width: 88.125em;
   }
+  /* line 357, assets/themes/the-minimum/css/_layout.less */
   .the-footer .unit-inner h1,
   .the-footer .unit-inner h2,
   .the-footer .unit-inner h3,
@@ -849,4 +993,17 @@ pre {
     margin-left: 360px;
     margin-right: 360px;
   }
+}
+/* line 3, assets/themes/the-minimum/css/mod.less */
+.tagline {
+  border-top: 1px solid #609152;
+  display: block;
+  color: #609152;
+}
+/* line 9, assets/themes/the-minimum/css/mod.less */
+h1 .tagline {
+  font-size: 17px;
+  line-height: 20px;
+  margin-top: 5px;
+  font-weight: normal;
 }
