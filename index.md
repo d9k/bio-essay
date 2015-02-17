@@ -17,7 +17,7 @@ Complete usage and documentation available at: [Jekyll Bootstrap](http://jekyllb
 
 Привет!
 
-[Тестовая страница](/test.html)
+[Тестовая страница]({{ BASE_PATH }}/test.html)
 
 ## Update Author Attributes
 
