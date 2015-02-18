@@ -56,7 +56,7 @@ h6 {
 /* line 84, assets/themes/the-minimum/css/_less-base.less */
 h1,
 .h1 {
-  font-size: 42px;
+  font-size: 52px;
   line-height: 52px;
   margin-top: 52px;
   margin-bottom: 26px;
@@ -65,16 +65,16 @@ h1,
 /* line 91, assets/themes/the-minimum/css/_less-base.less */
 h2,
 .h2 {
-  font-size: 42px;
-  line-height: 52px;
-  margin-top: 52px;
+  font-size: 36px;
+  line-height: 48px;
+  margin-top: 48px;
   margin-bottom: 26px;
   letter-spacing: -1px;
 }
 /* line 98, assets/themes/the-minimum/css/_less-base.less */
 h3,
 .h3 {
-  font-size: 26px;
+  font-size: 24px;
   line-height: 26px;
   margin-top: 26px;
   margin-bottom: 26px;
@@ -82,7 +82,7 @@ h3,
 /* line 104, assets/themes/the-minimum/css/_less-base.less */
 h4,
 .h4 {
-  font-size: 20px;
+  font-size: 18px;
   line-height: 26px;
   margin-top: 26px;
   margin-bottom: 26px;
@@ -1006,4 +1006,36 @@ h1 .tagline {
   line-height: 20px;
   margin-top: 5px;
   font-weight: normal;
+}
+/* line 16, assets/themes/the-minimum/css/mod.less */
+.footnote,
+.reversefootnote {
+  background: #ffffb0;
+}
+/* line 21, assets/themes/the-minimum/css/mod.less */
+.footnotes ol {
+  list-style: none;
+  /* Remove default numbering */
+  *list-style: decimal;
+  /* Keep using default numbering for IE6/7 */
+  counter-reset: li;
+}
+/* line 25, assets/themes/the-minimum/css/mod.less */
+.footnotes ol li {
+  display: inline-block;
+  list-style-position: inside;
+  margin: 0;
+}
+/* line 29, assets/themes/the-minimum/css/mod.less */
+.footnotes ol li:before {
+  counter-increment: li;
+  content: counter(li) ".";
+  background: #ffffb0;
+}
+/* line 34, assets/themes/the-minimum/css/mod.less */
+.footnotes ol li p {
+  display: inline-block;
+  margin-top: -26px;
+  margin-left: 25px;
+  margin-bottom: 15px;
 }

@@ -12,3 +12,31 @@ h1 .tagline{
 	margin-top: 5px;
 	font-weight: normal;
 }
+
+.footnote, .reversefootnote{
+	background: #ffffb0;
+}
+
+.footnotes {
+	ol{
+    	list-style: none; /* Remove default numbering */
+    	*list-style: decimal; /* Keep using default numbering for IE6/7 */	 	
+    	counter-reset: li;
+		li{
+			display: inline-block;
+		 	list-style-position: inside;
+		 	margin: 0;
+		 	&:before{
+		 	    counter-increment: li;
+		 		content: counter(li) ".";
+		 		background: #ffffb0;
+		 	}
+		 	p {
+		 		display: inline-block;
+		 		margin-top: -26px;
+				margin-left: 25px;
+				margin-bottom: 15px;
+		 	}
+		}
+	}
+}
