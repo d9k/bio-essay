@@ -7,6 +7,8 @@ tagline: Химико-информационный обмен
 
 ## Оглавление
 
+{% assign mainpage = true %}
+
 <!---[Тестовая страница]({{ BASE_PATH }}/test.html)-->
 
 0. [Интерфероны]({{ BASE_PATH }}/interferon.html)

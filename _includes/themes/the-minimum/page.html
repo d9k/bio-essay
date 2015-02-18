@@ -1,5 +1,6 @@
 <article class="unit-article layout-page">
 	<div class="unit-inner unit-article-inner">
+		{% assign mainpagetitle = "Реферат по биологии" %}
 		<div class="content">
 			<header>
 				<div class="unit-head">
@@ -12,6 +13,9 @@
 
 			<div class="bd">
 				<div class="entry-content">
+					{% if page.title != mainpagetitle %}
+						<p><a href="{{ BASE_PATH }}/">На главную</a></p>
+					{% endif %}
 					{{ content }}
 				</div><!-- entry-content -->
 			</div><!-- bd -->
@@ -19,7 +23,10 @@
 			<footer class="unit-foot">
 				<div class="unit-inner unit-foot-inner">
 					<p class="gotop">
-						<a href="#page">В начало</a>
+						<a href="#page">В начало статьи</a><br/>
+						{% if page.title != mainpagetitle %}
+							<a href="{{ BASE_PATH }}/">На главную</a>
+						{% endif %}								
 					</p>
 				</div>
 			</footer>
