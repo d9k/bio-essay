@@ -12,9 +12,10 @@ title : Реферат по биологии
 tagline: Химико-информационный обмен
 author :
   name : Комаров Дмитрий (d9k)
-  email : d9kd9k@gmail.com
+#  email : d9kd9k@gmail.com
   github : d9k
   twitter : d9k
+  vk : d9kd9k
 #  feedburner : feedname
 
 # The production_url is only used when full-domain names are needed
