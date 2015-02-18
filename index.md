@@ -11,7 +11,7 @@ tagline: Химико-информационный обмен
 
 0. [Интерфероны]({{ BASE_PATH }}/interferon.html)
 
-<!---
+{% if false %}
 ----------------------------------------
 
 Read [Jekyll Quick Start](http://jekyllbootstrap.com/usage/jekyll-quick-start.html)
@@ -53,4 +53,4 @@ This theme is still unfinished. If you'd like to be added as a contributor, [ple
 We need to clean up the themes, make theme usage guides with theme-specific markup examples.
 
 
--->
+{% endif %}
