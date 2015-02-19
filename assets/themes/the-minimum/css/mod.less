@@ -40,3 +40,23 @@ h1 .tagline{
 		}
 	}
 }
+
+body{
+	counter-reset: imageWithCaption;
+}
+
+.imageWithCaption{
+	margin: 0 auto;
+	margin-bottom: 20px;
+	
+	caption {
+		font-style: italic;
+
+		span{
+			&:before{
+ 	    		counter-increment: imageWithCaption;
+ 				content: "Рисунок " counter(imageWithCaption) ". ";	
+ 			}
+ 		}
+	}
+}

@@ -1,0 +1,16 @@
+{% if no_render_this %}
+<!--- @link http://stackoverflow.com/a/19360305/1760643 -->
+{% endif %}
+
+<table class="imageWithCaption">
+<caption align="bottom">
+	<span>{{ include.description }}</span>
+</caption>
+<tr><td>
+	<img style="
+		{% if include.width %}
+			max-width:{{ include.width }}
+		{% endif %}"
+		src="{{ BASE_PATH }}{{ include.url }}" alt="{{ include.description }}"/>
+</td></tr>
+</table>

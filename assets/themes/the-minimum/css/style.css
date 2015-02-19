@@ -1039,3 +1039,21 @@ h1 .tagline {
   margin-left: 25px;
   margin-bottom: 15px;
 }
+/* line 44, assets/themes/the-minimum/css/mod.less */
+body {
+  counter-reset: imageWithCaption;
+}
+/* line 48, assets/themes/the-minimum/css/mod.less */
+.imageWithCaption {
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+/* line 52, assets/themes/the-minimum/css/mod.less */
+.imageWithCaption caption {
+  font-style: italic;
+}
+/* line 56, assets/themes/the-minimum/css/mod.less */
+.imageWithCaption caption span:before {
+  counter-increment: imageWithCaption;
+  content: "Рисунок " counter(imageWithCaption) ". ";
+}
