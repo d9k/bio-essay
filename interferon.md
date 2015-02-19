@@ -7,6 +7,8 @@ description: ""
 История открытия
 ----------------
 
+0. [Интерфероны]({{ BASE_PATH }}/interferon.html)
+
 {{ BASE_PATH }}
 ththththth
 
