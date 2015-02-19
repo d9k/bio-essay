@@ -1047,12 +1047,19 @@ body {
 .imageWithCaption {
   margin: 0 auto;
   margin-bottom: 20px;
+  min-width: 70%;
 }
-/* line 52, assets/themes/the-minimum/css/mod.less */
+/* line 53, assets/themes/the-minimum/css/mod.less */
 .imageWithCaption caption {
   font-style: italic;
 }
 /* line 56, assets/themes/the-minimum/css/mod.less */
+.imageWithCaption caption span {
+  display: block;
+  font-size: 14px;
+  line-height: 20px;
+}
+/* line 61, assets/themes/the-minimum/css/mod.less */
 .imageWithCaption caption span:before {
   counter-increment: imageWithCaption;
   content: "Рисунок " counter(imageWithCaption) ". ";

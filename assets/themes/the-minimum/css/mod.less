@@ -48,11 +48,16 @@ body{
 .imageWithCaption{
 	margin: 0 auto;
 	margin-bottom: 20px;
-	
+	min-width: 70%;
+
 	caption {
 		font-style: italic;
 
 		span{
+			display: block;
+			font-size: 14px;			
+			line-height: 20px;
+
 			&:before{
  	    		counter-increment: imageWithCaption;
  				content: "Рисунок " counter(imageWithCaption) ". ";	
