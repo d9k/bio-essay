@@ -8,6 +8,7 @@ description: ""
 ----------------
 
 {{ BASE_PATH }}
+ththththth
 
 {% include image.html url="/images/interferon-alpha.png" description="Интерферон-альфа. Различают альфа, бета и гамма интерфероны подтипов I и II" width="300px" %}
 
