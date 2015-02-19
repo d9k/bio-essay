@@ -1064,3 +1064,7 @@ body {
   counter-increment: imageWithCaption;
   content: "Рисунок " counter(imageWithCaption) ". ";
 }
+/* line 68, assets/themes/the-minimum/css/mod.less */
+.imageWithCaption img {
+  margin-bottom: 16px;
+}
