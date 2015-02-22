@@ -1034,7 +1034,6 @@ h1 .tagline {
 }
 /* line 34, assets/themes/the-minimum/css/mod.less */
 .footnotes ol li p {
-  display: inline-block;
   margin-top: -26px;
   margin-left: 25px;
   margin-bottom: 15px;
