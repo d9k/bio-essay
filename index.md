@@ -11,8 +11,9 @@ tagline: Химико-информационный обмен
 
 <!---[Тестовая страница]({{ BASE_PATH }}/test.html)-->
 
-0. [Интерфероны]({{ BASE_PATH }}/interferon.html)
-0. [Цитокины]({{ BASE_PATH }}/cytokine.html)
+0. [Интерфероны]({{ BASE_PATH }}/interferons.html)
+0. [Цитокины]({{ BASE_PATH }}/cytokines.html)
+0. [Гормоны]({{ BASE_PATH }}/hormones.html)
 
 {% if false %}
 ----------------------------------------
