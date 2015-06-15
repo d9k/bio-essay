@@ -14,6 +14,7 @@ tagline: Химико-информационный обмен
 0. [Интерфероны]({{ BASE_PATH }}/interferons.html)
 0. [Цитокины]({{ BASE_PATH }}/cytokines.html)
 0. [Гормоны]({{ BASE_PATH }}/hormones.html)
+0. [Нейромедиаторы]({{ BASE_PATH }}/neurotransmitters.html)
 
 {% if false %}
 ----------------------------------------
@@ -55,6 +56,5 @@ Here's a sample "posts list".
 
 This theme is still unfinished. If you'd like to be added as a contributor, [please fork](http://github.com/plusjade/jekyll-bootstrap)!
 We need to clean up the themes, make theme usage guides with theme-specific markup examples.
-
 
 {% endif %}

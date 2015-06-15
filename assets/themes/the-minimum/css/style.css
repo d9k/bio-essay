@@ -1012,6 +1012,12 @@ h1 .tagline {
 .reversefootnote {
   background: #ffffb0;
 }
+/* line 20, assets/themes/the-minimum/css/mod.less */
+.footnotes {
+  margin-top: 45px;
+  padding-top: 10px;
+  border-top: 2px solid #000;
+}
 /* line 21, assets/themes/the-minimum/css/mod.less */
 .footnotes ol {
   list-style: none;
@@ -1038,32 +1044,43 @@ h1 .tagline {
   margin-left: 25px;
   margin-bottom: 15px;
 }
-/* line 44, assets/themes/the-minimum/css/mod.less */
+/* line 47, assets/themes/the-minimum/css/mod.less */
 body {
   counter-reset: imageWithCaption;
 }
-/* line 48, assets/themes/the-minimum/css/mod.less */
+/* line 51, assets/themes/the-minimum/css/mod.less */
 .imageWithCaption {
   margin: 0 auto;
   margin-bottom: 20px;
   min-width: 70%;
 }
-/* line 53, assets/themes/the-minimum/css/mod.less */
+/* line 56, assets/themes/the-minimum/css/mod.less */
 .imageWithCaption caption {
   font-style: italic;
 }
-/* line 56, assets/themes/the-minimum/css/mod.less */
+/* line 59, assets/themes/the-minimum/css/mod.less */
 .imageWithCaption caption span {
   display: block;
   font-size: 14px;
   line-height: 20px;
 }
-/* line 61, assets/themes/the-minimum/css/mod.less */
+/* line 64, assets/themes/the-minimum/css/mod.less */
 .imageWithCaption caption span:before {
   counter-increment: imageWithCaption;
   content: "Рисунок " counter(imageWithCaption) ". ";
 }
-/* line 68, assets/themes/the-minimum/css/mod.less */
+/* line 71, assets/themes/the-minimum/css/mod.less */
 .imageWithCaption img {
   margin-bottom: 16px;
+}
+/* line 76, assets/themes/the-minimum/css/mod.less */
+table.table {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+/* line 77, assets/themes/the-minimum/css/mod.less */
+table.table td,
+table.table th {
+  border: 1px solid #000;
+  padding: 2px 5px;
 }
