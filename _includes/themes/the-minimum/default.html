@@ -55,16 +55,27 @@
                             	{% if site.author.email %}- <span class="fn email">{{ site.author.email }}</span>{% endif %}
                         	</address>
                         </li>
+
+						{% if site.author.vk %}
+						<li class="vk"><a href="http://vk.com/{{ site.author.vk }}">vk.com/{{ site.author.vk }}</a></li>
+                        {% endif %} 
+
+						{% if site.author.site %}
+						<li class="vk"><a href="http://{{ site.author.site }}">{{ site.author.site }}</a></li>
+                        {% endif %}  
+
 						<li class="github"><a href="http://github.com/{{ site.author.github }}/" rel="me">github.com/{{ site.author.github }}</a></li>
+
+						{% if site.author.bitbucket %}
+						<li class="vk"><a href="http://bitbucket.com/{{ site.author.bitbucket }}">bitbucket.com/{{ site.author.bitbucket }}</a></li>
+                        {% endif %}  
+
 						<li class="twitter"><a href="http://twitter.com/{{ site.author.twitter }}/" rel="me">twitter.com/{{ site.author.twitter }}</a></li>
                                                 
                         {% if site.author.feedname %}
 						<li class="rss"><a href="http://feeds.feedburner.com/{{ site.author.feedname }}">Subscribe to RSS Feed</a></li>
                         {% endif %}
-
-						{% if site.author.vk %}
-						<li class="vk"><a href="http://vk.com/{{ site.author.vk }}">vk.com/{{ site.author.vk }}</a></li>
-                        {% endif %}                                                
+                                               
 					</ul>
 				</div><!-- misc -->
 				<p class="licence">
